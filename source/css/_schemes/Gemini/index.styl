@@ -4,6 +4,86 @@
 @import '../Pisces/_sub-menu';
 @import '../Pisces/_sidebar';
 
+// 背景
+body {
+  background: #8a8a8a;
+  background: url(https://gallery.vksir.zone/images/2020/03/02/AlbertaBubbles_ZH-CN1528424173_1920x1080.jpg);
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+// 侧边栏背景
+.site-brand-container {
+  background: #222;
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
+    url("https://gallery.vksir.zone/images/2020/03/05/-.md.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+// 圆角
+.sub-menu
+.comments
+.sidebar-inner
+.header-inner
+.post-block {
+  border-radius: 8px !important;
+}
+.sidebar {
+  background: initial;  // 设置背景透明，以凸显圆角
+}
+
+// 隐去顶部黑条，顺便使所有部件整体下移
+.headband {
+  background: initial;
+  height: 12px;
+}
+
+// 页码设置
+.pagination {
+  box-shadow: initial !important;
+  background: initial !important;
+}
+.pagination .prev:hover
+.pagination .next:hover
+.pagination .page-number:hover {
+  border-color: #00000000;
+  border-radius: 100%;
+  color: black;
+  background: white;
+  width: 33px;
+  box-sizing: border-box;
+}
+.pagination .page-number.current {
+  border-top-color: #00000000;
+  border-radius: 100%;
+  color: white;
+  background: #4b4b4b;
+  width: 33px;
+  box-sizing: border-box;
+}
+.pagination .prev
+.pagination .next
+.pagination .page-number {
+  border-top-color: #00000000;
+  color: white;
+  width: 33px;
+  box-sizing: border-box;
+  border-bottom: 0 solid #eee;
+}
+
+// 链接字体显蓝色
+.post-body p a {
+  color: #0593d3;
+  border-bottom: 1px solid #0593d3;
+  &:hover {
+    color: #fc6423;
+    border-bottom: 1px solid #fc6423;
+  }
+}
+
 // ==================================================
 // Rewrite _layout.styl
 // ==================================================
