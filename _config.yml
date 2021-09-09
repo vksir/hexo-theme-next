@@ -40,10 +40,10 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: https://gallery.vksir.zone/images/2020/03/12/V-2.th.png
-  medium: https://gallery.vksir.zone/images/2020/03/12/V-2.png
-  apple_touch_icon: https://gallery.vksir.zone/images/2020/03/12/V-2.png
-  safari_pinned_tab: https://gallery.vksir.zone/images/2020/03/12/V-2.png
+  small: https://static.vksir.zone/img/V.th.png
+  medium: https://static.vksir.zone/img/V.png
+  apple_touch_icon: https://static.vksir.zone/img/V.png
+  safari_pinned_tab: https://static.vksir.zone/img/V.png
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
