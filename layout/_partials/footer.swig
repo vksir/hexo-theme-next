@@ -18,11 +18,11 @@
     <i class="{{ theme.footer.icon.name }}"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright or author }}</span>
-  &nbsp;&nbsp;&nbsp;&nbsp;
+  <span class="post-meta-divider">|</span>
   <span class="post-meta-item-icon">
     <i class="fa fa-id-card"></i>
   </span>
-  <a href="https://beian.miit.gov.cn/" style="border-bottom:none;color:white" id="myFooter">
+  <a href="https://beian.miit.gov.cn/" style="border-bottom:none;color:white">
     鄂 ICP 备 20002696 号
   </a>
 
