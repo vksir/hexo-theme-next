@@ -119,10 +119,10 @@ menu:
   home: / || fa fa-home
   categories: /categories/ || fa fa-th
   tags: /tags/ || fa fa-tags
-  #archives: /archives/ || fa fa-archive
+  archives: /archives/ || fa fa-archive
   about: /about/ || fa fa-user
-  #schedule: /schedule/ || fa fa-calendar
-  #sitemap: /sitemap.xml || fa fa-sitemap
+#  schedule: /schedule/ || fa fa-calendar
+#  sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
